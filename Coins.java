@@ -5,7 +5,7 @@ public class Coins {
         int remainingCents = x % 25;
         if (remainingCents == 0) {
            quarters = x/25;
-            System.out.println("Use " + quarters + " quarters");
+            System.out.println("Use " + quarters + " quarters and 0 cents");
         }
         if (remainingCents > 0) {
             quarters = (x - remainingCents)/25;
